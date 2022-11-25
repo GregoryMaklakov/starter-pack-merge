@@ -1,0 +1,22 @@
+@use "sass:math";
+
+// Подключение шрифтов ===========================================================================================================================================================================================================================================================================
+
+//&display=swap - добавить при подключении через плагин
+
+//Base
+@import 'base/reset';
+@import 'base/normalize';
+@import 'base/functions';
+@import 'base/mixins';
+@import 'base/variables';
+@import 'base/common';
+
+
+
+//Component
+// @import 'components/';
+
+//Blocks
+// @import 'blocks/header';
+// @import 'blocks/footer';
