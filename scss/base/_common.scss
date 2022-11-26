@@ -1,3 +1,16 @@
-html {
-  font-size: $html-font-size;
+body {
+	font-family: $fontFamily;
+	font-size: $fontSize;
+	//text-rendering: optimizeLegibility;
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+input,
+button,
+textarea {
+	font-family: $fontFamily;
+	font-size: inherit;
 }
