@@ -125,7 +125,7 @@ background-repeat: no-repeat;
 }
 
 //========================================================================================================================================================
-// Адаптивное свойство (clamp)
+// Адаптив
 @mixin adaptiveValue($property, $startSize, $minSize, $keepSize: 0, $widthFrom: $containerWidth, $widthTo: $minWidth) {
 	@if ($startSize==0) {
 		$startSize: 0.000001;
